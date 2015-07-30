@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		BA71EA691B6969C400BBD9BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA681B6969C400BBD9BA /* main.m */; };
 		BA71EA6C1B6969C400BBD9BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA6B1B6969C400BBD9BA /* AppDelegate.m */; };
-		BA71EA6F1B6969C400BBD9BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA6E1B6969C400BBD9BA /* ViewController.m */; };
+		BA71EA6F1B6969C400BBD9BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA6E1B6969C400BBD9BA /* MainViewController.m */; };
 		BA71EA721B6969C400BBD9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA71EA701B6969C400BBD9BA /* Main.storyboard */; };
 		BA71EA741B6969C400BBD9BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA71EA731B6969C400BBD9BA /* Images.xcassets */; };
 		BA71EA771B6969C400BBD9BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA71EA751B6969C400BBD9BA /* LaunchScreen.xib */; };
 		BA71EA831B6969C400BBD9BA /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA821B6969C400BBD9BA /* ZaHunterTests.m */; };
+		BA71EA911B697CFF00BBD9BA /* Pizzeria.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA901B697CFF00BBD9BA /* Pizzeria.m */; };
+		BA71EA941B699F9B00BBD9BA /* DirectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA931B699F9B00BBD9BA /* DirectionViewController.m */; };
+		BA71EA971B69A54A00BBD9BA /* CustomAnnotationStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = BA71EA961B69A54A00BBD9BA /* CustomAnnotationStuff.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		BA71EA681B6969C400BBD9BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA71EA6A1B6969C400BBD9BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA71EA6B1B6969C400BBD9BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA71EA6D1B6969C400BBD9BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BA71EA6E1B6969C400BBD9BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA71EA6D1B6969C400BBD9BA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BA71EA6E1B6969C400BBD9BA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		BA71EA711B6969C400BBD9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA71EA731B6969C400BBD9BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BA71EA761B6969C400BBD9BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BA71EA7C1B6969C400BBD9BA /* ZaHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA71EA811B6969C400BBD9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA71EA821B6969C400BBD9BA /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		BA71EA8F1B697CF400BBD9BA /* Pizzeria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pizzeria.h; sourceTree = "<group>"; };
+		BA71EA901B697CFF00BBD9BA /* Pizzeria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizzeria.m; sourceTree = "<group>"; };
+		BA71EA921B699F9B00BBD9BA /* DirectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionViewController.h; sourceTree = "<group>"; };
+		BA71EA931B699F9B00BBD9BA /* DirectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionViewController.m; sourceTree = "<group>"; };
+		BA71EA951B69A54A00BBD9BA /* CustomAnnotationStuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotationStuff.h; sourceTree = "<group>"; };
+		BA71EA961B69A54A00BBD9BA /* CustomAnnotationStuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotationStuff.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				BA71EA6A1B6969C400BBD9BA /* AppDelegate.h */,
 				BA71EA6B1B6969C400BBD9BA /* AppDelegate.m */,
-				BA71EA6D1B6969C400BBD9BA /* ViewController.h */,
-				BA71EA6E1B6969C400BBD9BA /* ViewController.m */,
+				BA71EA6D1B6969C400BBD9BA /* MainViewController.h */,
+				BA71EA6E1B6969C400BBD9BA /* MainViewController.m */,
+				BA71EA921B699F9B00BBD9BA /* DirectionViewController.h */,
+				BA71EA931B699F9B00BBD9BA /* DirectionViewController.m */,
+				BA71EA951B69A54A00BBD9BA /* CustomAnnotationStuff.h */,
+				BA71EA961B69A54A00BBD9BA /* CustomAnnotationStuff.m */,
+				BA71EA8F1B697CF400BBD9BA /* Pizzeria.h */,
+				BA71EA901B697CFF00BBD9BA /* Pizzeria.m */,
 				BA71EA701B6969C400BBD9BA /* Main.storyboard */,
 				BA71EA731B6969C400BBD9BA /* Images.xcassets */,
 				BA71EA751B6969C400BBD9BA /* LaunchScreen.xib */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA71EA6F1B6969C400BBD9BA /* ViewController.m in Sources */,
+				BA71EA971B69A54A00BBD9BA /* CustomAnnotationStuff.m in Sources */,
+				BA71EA6F1B6969C400BBD9BA /* MainViewController.m in Sources */,
 				BA71EA6C1B6969C400BBD9BA /* AppDelegate.m in Sources */,
 				BA71EA691B6969C400BBD9BA /* main.m in Sources */,
+				BA71EA911B697CFF00BBD9BA /* Pizzeria.m in Sources */,
+				BA71EA941B699F9B00BBD9BA /* DirectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +300,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -325,7 +343,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
